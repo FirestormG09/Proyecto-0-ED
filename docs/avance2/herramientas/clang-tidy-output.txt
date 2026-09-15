@@ -1,0 +1,1 @@
+Error: can't read config-file '..\.clang-tidy': no such file or directory

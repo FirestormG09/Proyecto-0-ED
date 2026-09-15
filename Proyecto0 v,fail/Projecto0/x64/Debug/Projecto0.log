@@ -1,2 +1,1 @@
-﻿  main.cpp
-  Projecto0.vcxproj -> C:\Users\javie\Documents\Code_Projects\C_C++_Projects\Proyecto0\Proyecto0 v,fail\x64\Debug\Projecto0.exe
+﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(473,5): error MSB8020: The build tools for Visual Studio 2022 (Platform Toolset = 'v143') cannot be found. To build using the v143 build tools, please install Visual Studio 2022 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".
