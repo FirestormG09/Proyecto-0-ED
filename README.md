@@ -138,3 +138,22 @@ Gente, revisé la clase donde el profe explica todo y no estoy seguro si hay que
 - Un area puede atender muchos servicios, cada servicio es atendidio en un area, entonces un area puede tener una lista de servicios que hace, es necesario que la lista se pueda reordenar.
 - Un area tiene una cantidad de ventanillas (personalizable) donde la cola de prioridad de area se va a atender.
 - Hay que cambiar la hora a la que se pide un tiquete a time o calendar (o lo que haya en C++)
+
+# Avance 2 - Pruebas estáticas
+
+## Resumen semanal
+
+Durante esta semana se realizaron las pruebas estáticas del proyecto Proyecto-0-ED.
+Se documentaron cuatro Inspections formales y cuatro revisiones adicionales.
+También se configuraron y ejecutaron cuatro herramientas de análisis estático.
+Los resultados fueron revisados manualmente para distinguir hallazgos reales de advertencias.
+Finalmente, se documentaron los defectos encontrados sin modificar el código original.
+
+## Commits del avance
+
+Commit inicial: XXXXXXX  
+Commit final: XXXXXXX  
+
+Rango de commits:
+
+XXXXXXX..XXXXXXX
