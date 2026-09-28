@@ -1,0 +1,10 @@
+^C:\USERS\HELIA\ONEDRIVE\DOCUMENTOS\TEC\COMPU\7 SEMESTRE\ASEGURAMIENTO Y CALIDAD DEL SOFTWARE\PROYECT\PROYECTO-0-ED\BUILD-TESTS\_DEPS\GOOGLETEST-SRC\GOOGLETEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/tests" "-BC:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests" --check-stamp-file "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/_deps/googletest-build/googletest/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

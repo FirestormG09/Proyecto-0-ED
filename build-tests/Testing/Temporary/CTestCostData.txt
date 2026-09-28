@@ -1,0 +1,10 @@
+GeneracionTiquetes.PT_E01_CalculaPrioridadFinal 2 0.0467402
+GeneracionTiquetes.PT_E02_PrioridadUsuarioCero 2 0.0444905
+GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100 2 0.0449856
+GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket 2 0.0428112
+GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket 2 0.0450607
+GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket 2 0.0451763
+GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket 0 0
+GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion 2 0.0059255
+---
+GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket

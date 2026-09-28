@@ -1,0 +1,3 @@
+C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir

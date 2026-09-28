@@ -1,0 +1,52 @@
+{
+  "tests": 8,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "GeneracionTiquetes",
+      "tests": 8,
+      "testsuite": [
+        {
+          "name": "PT_E01_CalculaPrioridadFinal",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_tickets.cpp",
+          "line": 16
+        },
+        {
+          "name": "PT_E02_PrioridadUsuarioCero",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_tickets.cpp",
+          "line": 30
+        },
+        {
+          "name": "PT_E03_ConsecutivoIniciaEn100",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_tickets.cpp",
+          "line": 46
+        },
+        {
+          "name": "PT_E04_AreaInexistenteNoGeneraTicket",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_tickets.cpp",
+          "line": 61
+        },
+        {
+          "name": "PT_E05_UsuarioInexistenteNoGeneraTicket",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_tickets.cpp",
+          "line": 74
+        },
+        {
+          "name": "PT_E06_ServicioInexistenteNoGeneraTicket",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_tickets.cpp",
+          "line": 88
+        },
+        {
+          "name": "PT_E07_ServicioDeOtraAreaNoGeneraTicket",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_tickets.cpp",
+          "line": 102
+        },
+        {
+          "name": "PT_E08_RegistraHoraDeCreacion",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_tickets.cpp",
+          "line": 119
+        }
+      ]
+    }
+  ]
+}

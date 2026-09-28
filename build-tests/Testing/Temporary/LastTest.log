@@ -1,0 +1,229 @@
+Start testing: Sep 28 15:00 Romance Standard Time
+----------------------------------------------------------
+1/8 Testing: GeneracionTiquetes.PT_E01_CalculaPrioridadFinal
+1/8 Test: GeneracionTiquetes.PT_E01_CalculaPrioridadFinal
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E01_CalculaPrioridadFinal" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
+"GeneracionTiquetes.PT_E01_CalculaPrioridadFinal" start time: Sep 28 15:00 Romance Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GeneracionTiquetes.PT_E01_CalculaPrioridadFinal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeneracionTiquetes
+[ RUN      ] GeneracionTiquetes.PT_E01_CalculaPrioridadFinal
+[       OK ] GeneracionTiquetes.PT_E01_CalculaPrioridadFinal (79 ms)
+[----------] 1 test from GeneracionTiquetes (79 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (80 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"GeneracionTiquetes.PT_E01_CalculaPrioridadFinal" end time: Sep 28 15:00 Romance Standard Time
+"GeneracionTiquetes.PT_E01_CalculaPrioridadFinal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/8 Testing: GeneracionTiquetes.PT_E02_PrioridadUsuarioCero
+2/8 Test: GeneracionTiquetes.PT_E02_PrioridadUsuarioCero
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E02_PrioridadUsuarioCero" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
+"GeneracionTiquetes.PT_E02_PrioridadUsuarioCero" start time: Sep 28 15:00 Romance Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GeneracionTiquetes.PT_E02_PrioridadUsuarioCero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeneracionTiquetes
+[ RUN      ] GeneracionTiquetes.PT_E02_PrioridadUsuarioCero
+[       OK ] GeneracionTiquetes.PT_E02_PrioridadUsuarioCero (77 ms)
+[----------] 1 test from GeneracionTiquetes (77 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (77 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"GeneracionTiquetes.PT_E02_PrioridadUsuarioCero" end time: Sep 28 15:00 Romance Standard Time
+"GeneracionTiquetes.PT_E02_PrioridadUsuarioCero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/8 Testing: GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100
+3/8 Test: GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
+"GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100" start time: Sep 28 15:00 Romance Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeneracionTiquetes
+[ RUN      ] GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100
+[       OK ] GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100 (77 ms)
+[----------] 1 test from GeneracionTiquetes (77 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (78 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100" end time: Sep 28 15:00 Romance Standard Time
+"GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket
+4/8 Test: GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
+"GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket" start time: Sep 28 15:00 Romance Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeneracionTiquetes
+[ RUN      ] GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket
+[       OK ] GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket (72 ms)
+[----------] 1 test from GeneracionTiquetes (73 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (73 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket" end time: Sep 28 15:00 Romance Standard Time
+"GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket
+5/8 Test: GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
+"GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket" start time: Sep 28 15:00 Romance Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeneracionTiquetes
+[ RUN      ] GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket
+[       OK ] GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket (77 ms)
+[----------] 1 test from GeneracionTiquetes (77 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (77 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket" end time: Sep 28 15:00 Romance Standard Time
+"GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket
+6/8 Test: GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
+"GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket" start time: Sep 28 15:00 Romance Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeneracionTiquetes
+[ RUN      ] GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket
+[       OK ] GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket (77 ms)
+[----------] 1 test from GeneracionTiquetes (77 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (77 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket" end time: Sep 28 15:00 Romance Standard Time
+"GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket
+7/8 Test: GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
+"GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket" start time: Sep 28 15:00 Romance Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeneracionTiquetes
+[ RUN      ] GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket
+C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\tests\test_tickets.cpp(116): error: Expected equality of these values:
+  salida.find("Tiquete generado")
+    Which is: 0
+  string::npos
+    Which is: 18446744073709551615
+
+[  FAILED  ] GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket (80 ms)
+[----------] 1 test from GeneracionTiquetes (80 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (80 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Failed.
+"GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket" end time: Sep 28 15:00 Romance Standard Time
+"GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion
+8/8 Test: GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
+"GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion" start time: Sep 28 15:00 Romance Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeneracionTiquetes
+[ RUN      ] GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion
+[       OK ] GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion (0 ms)
+[----------] 1 test from GeneracionTiquetes (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion" end time: Sep 28 15:00 Romance Standard Time
+"GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 28 15:00 Romance Standard Time

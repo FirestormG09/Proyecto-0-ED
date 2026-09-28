@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-subbuild\CMakeFiles\12819da8f6a0823e7a69a6dff8123612\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-subbuild\CMakeFiles\12819da8f6a0823e7a69a6dff8123612\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-subbuild\CMakeFiles\12819da8f6a0823e7a69a6dff8123612\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-subbuild\CMakeFiles\12819da8f6a0823e7a69a6dff8123612\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-subbuild\CMakeFiles\12819da8f6a0823e7a69a6dff8123612\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-subbuild\CMakeFiles\12819da8f6a0823e7a69a6dff8123612\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-subbuild\CMakeFiles\12819da8f6a0823e7a69a6dff8123612\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-subbuild\CMakeFiles\12819da8f6a0823e7a69a6dff8123612\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-subbuild\CMakeFiles\3369221804c4f5d04037ed1fbe4d422f\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-subbuild\CMakeFiles\f5a2eb17fc33167796ac3577fa3e9b2a\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9679309E-7590-3C7E-9FF6-C6D058EF2964}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
