@@ -150,3 +150,38 @@ TEST(GeneracionTiquetes, PT_E09_TicketGeneradoPuedeSerAtendidoEnSuArea) {
         sistema.attendTicket("CJ")
     );
 }
+
+TEST(GeneracionTiquetes, PT_E09_TicketGeneradoQuedaEnColaDelArea) {
+    AdmSystem sistema;
+    configurarSistemaBase(sistema);
+
+    testing::internal::CaptureStdout();
+    sistema.addTicket("CJ", "Adulto mayor", "Comprar boleto");
+    testing::internal::GetCapturedStdout();
+
+    EXPECT_NO_THROW(
+        sistema.attendTicket("CJ")
+    );
+}
+
+TEST(GeneracionTiquetes, PT_E10_ServicioInvalidoNoModificaContadorUsuario) {
+    AdmSystem sistema;
+    configurarSistemaBase(sistema);
+
+    testing::internal::CaptureStdout();
+
+    sistema.addTicket(
+        "CJ",
+        "Adulto mayor",
+        "Servicio inexistente"
+    );
+
+    sistema.printStatistics();
+
+    string salida = testing::internal::GetCapturedStdout();
+
+    EXPECT_NE(
+        salida.find("Adulto mayor: 0"),
+        string::npos
+    );
+}

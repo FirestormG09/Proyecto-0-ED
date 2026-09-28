@@ -1,18 +1,18 @@
 Test project C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
-    Start 1: GeneracionTiquetes.PT_E01_CalculaPrioridadFinal
-1/8 Test #1: GeneracionTiquetes.PT_E01_CalculaPrioridadFinal ...............   Passed    0.09 sec
-    Start 2: GeneracionTiquetes.PT_E02_PrioridadUsuarioCero
-2/8 Test #2: GeneracionTiquetes.PT_E02_PrioridadUsuarioCero ................   Passed    0.09 sec
-    Start 3: GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100
-3/8 Test #3: GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100 ..............   Passed    0.09 sec
-    Start 4: GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket
-4/8 Test #4: GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket .......   Passed    0.09 sec
-    Start 5: GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket
-5/8 Test #5: GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket ....   Passed    0.09 sec
-    Start 6: GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket
-6/8 Test #6: GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket ...   Passed    0.09 sec
-    Start 7: GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket
-7/8 Test #7: GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket ....***Failed    0.09 sec
+      Start  1: GeneracionTiquetes.PT_E01_CalculaPrioridadFinal
+ 1/10 Test  #1: GeneracionTiquetes.PT_E01_CalculaPrioridadFinal .......................   Passed    0.10 sec
+      Start  2: GeneracionTiquetes.PT_E02_PrioridadUsuarioCero
+ 2/10 Test  #2: GeneracionTiquetes.PT_E02_PrioridadUsuarioCero ........................   Passed    0.09 sec
+      Start  3: GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100
+ 3/10 Test  #3: GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100 ......................   Passed    0.09 sec
+      Start  4: GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket
+ 4/10 Test  #4: GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket ...............   Passed    0.09 sec
+      Start  5: GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket
+ 5/10 Test  #5: GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket ............   Passed    0.09 sec
+      Start  6: GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket
+ 6/10 Test  #6: GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket ...........   Passed    0.09 sec
+      Start  7: GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket
+ 7/10 Test  #7: GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket ............***Failed    0.10 sec
 Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
 Note: Google Test filter = GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket
 [==========] Running 1 test from 1 test suite.
@@ -25,24 +25,69 @@ C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad 
   string::npos
     Which is: 18446744073709551615
 
-[  FAILED  ] GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket (80 ms)
-[----------] 1 test from GeneracionTiquetes (80 ms total)
+[  FAILED  ] GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket (82 ms)
+[----------] 1 test from GeneracionTiquetes (82 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (80 ms total)
+[==========] 1 test from 1 test suite ran. (83 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 1 test, listed below:
 [  FAILED  ] GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket
 
  1 FAILED TEST
 
-    Start 8: GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion
-8/8 Test #8: GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion ..............   Passed    0.01 sec
+      Start  8: GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion
+ 8/10 Test  #8: GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion ......................   Passed    0.01 sec
+      Start  9: GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea
+ 9/10 Test  #9: GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea ............***Failed    0.10 sec
+Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeneracionTiquetes
+[ RUN      ] GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea
+C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\tests\test_tickets.cpp(142): error: Expected: sistema.attendTicket("CJ") doesn't throw an exception.
+  Actual: it throws std::runtime_error with description "No hay tiquetes en espera.".
 
-88% tests passed, 1 tests failed out of 8
+[  FAILED  ] GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea (84 ms)
+[----------] 1 test from GeneracionTiquetes (84 ms total)
 
-Total Test time (real) =   0.67 sec
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (84 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea
+
+ 1 FAILED TEST
+
+      Start 10: GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario
+10/10 Test #10: GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario ...***Failed    0.09 sec
+Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GeneracionTiquetes
+[ RUN      ] GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario
+C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\tests\test_tickets.cpp(164): error: Expected: (salida.find("Adulto mayor: 0")) != (string::npos), actual: 18446744073709551615 vs 18446744073709551615
+
+[  FAILED  ] GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario (74 ms)
+[----------] 1 test from GeneracionTiquetes (74 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (74 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario
+
+ 1 FAILED TEST
+
+
+70% tests passed, 3 tests failed out of 10
+
+Total Test time (real) =   0.85 sec
 
 The following tests FAILED:
 	  7 - GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket (Failed)
+	  9 - GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea (Failed)
+	 10 - GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario (Failed)
 Errors while running CTest

@@ -23,6 +23,28 @@ add_executable(ticket_tests
     test_tickets.cpp
 )
 
+if (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+    if (CMAKE_CXX_COMPILER_FRONTEND_VARIANT STREQUAL "MSVC")
+        target_compile_options(ticket_tests PRIVATE
+            /clang:-fprofile-instr-generate
+            /clang:-fcoverage-mapping
+        )
+
+        target_link_options(ticket_tests PRIVATE
+            /clang:-fprofile-instr-generate
+        )
+    else()
+        target_compile_options(ticket_tests PRIVATE
+            -fprofile-instr-generate
+            -fcoverage-mapping
+        )
+
+        target_link_options(ticket_tests PRIVATE
+            -fprofile-instr-generate
+        )
+    endif()
+endif()
+
 target_include_directories(ticket_tests PRIVATE
     "${CMAKE_CURRENT_SOURCE_DIR}/../Proyecto0 v,fail"
 )

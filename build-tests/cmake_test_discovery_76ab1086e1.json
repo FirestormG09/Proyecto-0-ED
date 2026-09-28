@@ -1,10 +1,10 @@
 {
-  "tests": 8,
+  "tests": 10,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GeneracionTiquetes",
-      "tests": 8,
+      "tests": 10,
       "testsuite": [
         {
           "name": "PT_E01_CalculaPrioridadFinal",
@@ -45,6 +45,16 @@
           "name": "PT_E08_RegistraHoraDeCreacion",
           "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_tickets.cpp",
           "line": 119
+        },
+        {
+          "name": "PT_E09_TicketGeneradoQuedaEnColaDelArea",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_tickets.cpp",
+          "line": 130
+        },
+        {
+          "name": "PT_E10_ServicioInvalidoNoModificaContadorUsuario",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_tickets.cpp",
+          "line": 145
         }
       ]
     }
