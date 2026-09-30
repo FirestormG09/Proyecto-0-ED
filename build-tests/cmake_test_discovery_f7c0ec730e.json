@@ -1,0 +1,58 @@
+{
+  "tests": 8,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "AtencionAreas",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "PT_P01_ColaVaciaLanzaError",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_atencion.cpp",
+          "line": 8
+        },
+        {
+          "name": "PT_P02_AgregarYAtenderTicket",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_atencion.cpp",
+          "line": 14
+        },
+        {
+          "name": "PT_P03_AtiendeMayorPrioridadPrimero",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_atencion.cpp",
+          "line": 26
+        },
+        {
+          "name": "PT_P04_PromedioInicialEsCero",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_atencion.cpp",
+          "line": 41
+        },
+        {
+          "name": "PT_P05_InicializaCantidadDeVentanillas",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_atencion.cpp",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "name": "Ventanillas",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "PT_P06_AsignaTicketAVentanillaLibre",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_atencion.cpp",
+          "line": 60
+        },
+        {
+          "name": "PT_P07_RechazaTicketSiEstaOcupada",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_atencion.cpp",
+          "line": 71
+        },
+        {
+          "name": "PT_P08_PermiteOtroTicketDespuesDeLiberar",
+          "file": "C:\\Users\\helia\\OneDrive\\Documentos\\Tec\\Compu\\7 semestre\\Aseguramiento y calidad del software\\Proyect\\Proyecto-0-ED\\tests\\test_atencion.cpp",
+          "line": 84
+        }
+      ]
+    }
+  ]
+}

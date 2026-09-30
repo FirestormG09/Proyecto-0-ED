@@ -9,6 +9,7 @@
 	</Configurations>
 	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="131ef81d-63b8-39a8-801d-3a660607649f" DefaultStartup="true">
 		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="atencion_tests.vcxproj"/>
 		<BuildDependency Project="_deps/googletest-build/googlemock/gmock.vcxproj"/>
 		<BuildDependency Project="_deps/googletest-build/googlemock/gmock_main.vcxproj"/>
 		<BuildDependency Project="_deps/googletest-build/googletest/gtest.vcxproj"/>
@@ -31,6 +32,11 @@
 		<Build Solution="RelWithDebInfo|*" Project="false"/>
 	</Project>
 	<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="03a74f15-6795-3312-a913-a5392d415a79"/>
+	<Project Path="atencion_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="03d28bac-e14d-3747-a940-cf295180bede">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/googletest-build/googletest/gtest.vcxproj"/>
+		<BuildDependency Project="_deps/googletest-build/googletest/gtest_main.vcxproj"/>
+	</Project>
 	<Project Path="_deps/googletest-build/googlemock/gmock.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1b2930f3-51eb-3d79-b6cc-5cc76c491a77">
 		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 	</Project>

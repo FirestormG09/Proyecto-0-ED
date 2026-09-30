@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/atencion_tests[1]_tests.cmake")
+  include("C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/atencion_tests[1]_tests.cmake")
+else()
+  add_test(atencion_tests_NOT_BUILT atencion_tests_NOT_BUILT)
+endif()

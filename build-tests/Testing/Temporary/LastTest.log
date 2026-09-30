@@ -1,219 +1,20 @@
-Start testing: Sep 28 16:01 Romance Standard Time
+Start testing: Sep 30 12:54 Romance Standard Time
 ----------------------------------------------------------
-1/10 Testing: GeneracionTiquetes.PT_E01_CalculaPrioridadFinal
-1/10 Test: GeneracionTiquetes.PT_E01_CalculaPrioridadFinal
-Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E01_CalculaPrioridadFinal" "--gtest_also_run_disabled_tests"
+11/18 Testing: AtencionAreas.PT_P01_ColaVaciaLanzaError
+11/18 Test: AtencionAreas.PT_P01_ColaVaciaLanzaError
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/atencion_tests.exe" "--gtest_filter=AtencionAreas.PT_P01_ColaVaciaLanzaError" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
-"GeneracionTiquetes.PT_E01_CalculaPrioridadFinal" start time: Sep 28 16:01 Romance Standard Time
+"AtencionAreas.PT_P01_ColaVaciaLanzaError" start time: Sep 30 12:54 Romance Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GeneracionTiquetes.PT_E01_CalculaPrioridadFinal
+Note: Google Test filter = AtencionAreas.PT_P01_ColaVaciaLanzaError
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from GeneracionTiquetes
-[ RUN      ] GeneracionTiquetes.PT_E01_CalculaPrioridadFinal
-[       OK ] GeneracionTiquetes.PT_E01_CalculaPrioridadFinal (85 ms)
-[----------] 1 test from GeneracionTiquetes (85 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (85 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.10 sec
-----------------------------------------------------------
-Test Passed.
-"GeneracionTiquetes.PT_E01_CalculaPrioridadFinal" end time: Sep 28 16:01 Romance Standard Time
-"GeneracionTiquetes.PT_E01_CalculaPrioridadFinal" time elapsed: 00:00:00
-----------------------------------------------------------
-
-2/10 Testing: GeneracionTiquetes.PT_E02_PrioridadUsuarioCero
-2/10 Test: GeneracionTiquetes.PT_E02_PrioridadUsuarioCero
-Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E02_PrioridadUsuarioCero" "--gtest_also_run_disabled_tests"
-Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
-"GeneracionTiquetes.PT_E02_PrioridadUsuarioCero" start time: Sep 28 16:01 Romance Standard Time
-Output:
-----------------------------------------------------------
-Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GeneracionTiquetes.PT_E02_PrioridadUsuarioCero
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from GeneracionTiquetes
-[ RUN      ] GeneracionTiquetes.PT_E02_PrioridadUsuarioCero
-[       OK ] GeneracionTiquetes.PT_E02_PrioridadUsuarioCero (80 ms)
-[----------] 1 test from GeneracionTiquetes (81 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (81 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.09 sec
-----------------------------------------------------------
-Test Passed.
-"GeneracionTiquetes.PT_E02_PrioridadUsuarioCero" end time: Sep 28 16:01 Romance Standard Time
-"GeneracionTiquetes.PT_E02_PrioridadUsuarioCero" time elapsed: 00:00:00
-----------------------------------------------------------
-
-3/10 Testing: GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100
-3/10 Test: GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100
-Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100" "--gtest_also_run_disabled_tests"
-Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
-"GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100" start time: Sep 28 16:01 Romance Standard Time
-Output:
-----------------------------------------------------------
-Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from GeneracionTiquetes
-[ RUN      ] GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100
-[       OK ] GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100 (78 ms)
-[----------] 1 test from GeneracionTiquetes (78 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (78 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.09 sec
-----------------------------------------------------------
-Test Passed.
-"GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100" end time: Sep 28 16:01 Romance Standard Time
-"GeneracionTiquetes.PT_E03_ConsecutivoIniciaEn100" time elapsed: 00:00:00
-----------------------------------------------------------
-
-4/10 Testing: GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket
-4/10 Test: GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket
-Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket" "--gtest_also_run_disabled_tests"
-Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
-"GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket" start time: Sep 28 16:01 Romance Standard Time
-Output:
-----------------------------------------------------------
-Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from GeneracionTiquetes
-[ RUN      ] GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket
-[       OK ] GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket (74 ms)
-[----------] 1 test from GeneracionTiquetes (74 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (74 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.09 sec
-----------------------------------------------------------
-Test Passed.
-"GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket" end time: Sep 28 16:01 Romance Standard Time
-"GeneracionTiquetes.PT_E04_AreaInexistenteNoGeneraTicket" time elapsed: 00:00:00
-----------------------------------------------------------
-
-5/10 Testing: GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket
-5/10 Test: GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket
-Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket" "--gtest_also_run_disabled_tests"
-Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
-"GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket" start time: Sep 28 16:01 Romance Standard Time
-Output:
-----------------------------------------------------------
-Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from GeneracionTiquetes
-[ RUN      ] GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket
-[       OK ] GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket (73 ms)
-[----------] 1 test from GeneracionTiquetes (73 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (73 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.09 sec
-----------------------------------------------------------
-Test Passed.
-"GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket" end time: Sep 28 16:01 Romance Standard Time
-"GeneracionTiquetes.PT_E05_UsuarioInexistenteNoGeneraTicket" time elapsed: 00:00:00
-----------------------------------------------------------
-
-6/10 Testing: GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket
-6/10 Test: GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket
-Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket" "--gtest_also_run_disabled_tests"
-Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
-"GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket" start time: Sep 28 16:01 Romance Standard Time
-Output:
-----------------------------------------------------------
-Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from GeneracionTiquetes
-[ RUN      ] GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket
-[       OK ] GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket (73 ms)
-[----------] 1 test from GeneracionTiquetes (73 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (73 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.09 sec
-----------------------------------------------------------
-Test Passed.
-"GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket" end time: Sep 28 16:01 Romance Standard Time
-"GeneracionTiquetes.PT_E06_ServicioInexistenteNoGeneraTicket" time elapsed: 00:00:00
-----------------------------------------------------------
-
-7/10 Testing: GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket
-7/10 Test: GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket
-Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket" "--gtest_also_run_disabled_tests"
-Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
-"GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket" start time: Sep 28 16:01 Romance Standard Time
-Output:
-----------------------------------------------------------
-Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from GeneracionTiquetes
-[ RUN      ] GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket
-C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\tests\test_tickets.cpp(116): error: Expected equality of these values:
-  salida.find("Tiquete generado")
-    Which is: 0
-  string::npos
-    Which is: 18446744073709551615
-
-[  FAILED  ] GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket (82 ms)
-[----------] 1 test from GeneracionTiquetes (82 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (83 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket
-
- 1 FAILED TEST
-<end of output>
-Test time =   0.10 sec
-----------------------------------------------------------
-Test Failed.
-"GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket" end time: Sep 28 16:01 Romance Standard Time
-"GeneracionTiquetes.PT_E07_ServicioDeOtraAreaNoGeneraTicket" time elapsed: 00:00:00
-----------------------------------------------------------
-
-8/10 Testing: GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion
-8/10 Test: GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion
-Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion" "--gtest_also_run_disabled_tests"
-Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
-"GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion" start time: Sep 28 16:01 Romance Standard Time
-Output:
-----------------------------------------------------------
-Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from GeneracionTiquetes
-[ RUN      ] GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion
-[       OK ] GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion (0 ms)
-[----------] 1 test from GeneracionTiquetes (0 ms total)
+[----------] 1 test from AtencionAreas
+[ RUN      ] AtencionAreas.PT_P01_ColaVaciaLanzaError
+[       OK ] AtencionAreas.PT_P01_ColaVaciaLanzaError (0 ms)
+[----------] 1 test from AtencionAreas (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -222,75 +23,199 @@ Note: Google Test filter = GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion" end time: Sep 28 16:01 Romance Standard Time
-"GeneracionTiquetes.PT_E08_RegistraHoraDeCreacion" time elapsed: 00:00:00
+"AtencionAreas.PT_P01_ColaVaciaLanzaError" end time: Sep 30 12:54 Romance Standard Time
+"AtencionAreas.PT_P01_ColaVaciaLanzaError" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/10 Testing: GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea
-9/10 Test: GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea
-Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea" "--gtest_also_run_disabled_tests"
+12/18 Testing: AtencionAreas.PT_P02_AgregarYAtenderTicket
+12/18 Test: AtencionAreas.PT_P02_AgregarYAtenderTicket
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/atencion_tests.exe" "--gtest_filter=AtencionAreas.PT_P02_AgregarYAtenderTicket" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
-"GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea" start time: Sep 28 16:01 Romance Standard Time
+"AtencionAreas.PT_P02_AgregarYAtenderTicket" start time: Sep 30 12:54 Romance Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea
+Note: Google Test filter = AtencionAreas.PT_P02_AgregarYAtenderTicket
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from GeneracionTiquetes
-[ RUN      ] GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea
-C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\tests\test_tickets.cpp(142): error: Expected: sistema.attendTicket("CJ") doesn't throw an exception.
-  Actual: it throws std::runtime_error with description "No hay tiquetes en espera.".
-
-[  FAILED  ] GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea (84 ms)
-[----------] 1 test from GeneracionTiquetes (84 ms total)
+[----------] 1 test from AtencionAreas
+[ RUN      ] AtencionAreas.PT_P02_AgregarYAtenderTicket
+Tiempo de espera en horas: 0
+[       OK ] AtencionAreas.PT_P02_AgregarYAtenderTicket (0 ms)
+[----------] 1 test from AtencionAreas (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (84 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea
-
- 1 FAILED TEST
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
-Test Failed.
-"GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea" end time: Sep 28 16:01 Romance Standard Time
-"GeneracionTiquetes.PT_E09_TicketGeneradoQuedaEnColaDelArea" time elapsed: 00:00:00
+Test Passed.
+"AtencionAreas.PT_P02_AgregarYAtenderTicket" end time: Sep 30 12:54 Romance Standard Time
+"AtencionAreas.PT_P02_AgregarYAtenderTicket" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/10 Testing: GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario
-10/10 Test: GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario
-Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/ticket_tests.exe" "--gtest_filter=GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario" "--gtest_also_run_disabled_tests"
+13/18 Testing: AtencionAreas.PT_P03_AtiendeMayorPrioridadPrimero
+13/18 Test: AtencionAreas.PT_P03_AtiendeMayorPrioridadPrimero
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/atencion_tests.exe" "--gtest_filter=AtencionAreas.PT_P03_AtiendeMayorPrioridadPrimero" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
-"GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario" start time: Sep 28 16:01 Romance Standard Time
+"AtencionAreas.PT_P03_AtiendeMayorPrioridadPrimero" start time: Sep 30 12:54 Romance Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario
+Note: Google Test filter = AtencionAreas.PT_P03_AtiendeMayorPrioridadPrimero
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from GeneracionTiquetes
-[ RUN      ] GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario
-C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\tests\test_tickets.cpp(164): error: Expected: (salida.find("Adulto mayor: 0")) != (string::npos), actual: 18446744073709551615 vs 18446744073709551615
-
-[  FAILED  ] GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario (74 ms)
-[----------] 1 test from GeneracionTiquetes (74 ms total)
+[----------] 1 test from AtencionAreas
+[ RUN      ] AtencionAreas.PT_P03_AtiendeMayorPrioridadPrimero
+Tiempo de espera en horas: 0
+[       OK ] AtencionAreas.PT_P03_AtiendeMayorPrioridadPrimero (0 ms)
+[----------] 1 test from AtencionAreas (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (74 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario
-
- 1 FAILED TEST
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
-Test Failed.
-"GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario" end time: Sep 28 16:01 Romance Standard Time
-"GeneracionTiquetes.PT_E10_ServicioInvalidoNoModificaContadorUsuario" time elapsed: 00:00:00
+Test Passed.
+"AtencionAreas.PT_P03_AtiendeMayorPrioridadPrimero" end time: Sep 30 12:54 Romance Standard Time
+"AtencionAreas.PT_P03_AtiendeMayorPrioridadPrimero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 28 16:01 Romance Standard Time
+14/18 Testing: AtencionAreas.PT_P04_PromedioInicialEsCero
+14/18 Test: AtencionAreas.PT_P04_PromedioInicialEsCero
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/atencion_tests.exe" "--gtest_filter=AtencionAreas.PT_P04_PromedioInicialEsCero" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
+"AtencionAreas.PT_P04_PromedioInicialEsCero" start time: Sep 30 12:54 Romance Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = AtencionAreas.PT_P04_PromedioInicialEsCero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AtencionAreas
+[ RUN      ] AtencionAreas.PT_P04_PromedioInicialEsCero
+[       OK ] AtencionAreas.PT_P04_PromedioInicialEsCero (0 ms)
+[----------] 1 test from AtencionAreas (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AtencionAreas.PT_P04_PromedioInicialEsCero" end time: Sep 30 12:54 Romance Standard Time
+"AtencionAreas.PT_P04_PromedioInicialEsCero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/18 Testing: AtencionAreas.PT_P05_InicializaCantidadDeVentanillas
+15/18 Test: AtencionAreas.PT_P05_InicializaCantidadDeVentanillas
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/atencion_tests.exe" "--gtest_filter=AtencionAreas.PT_P05_InicializaCantidadDeVentanillas" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
+"AtencionAreas.PT_P05_InicializaCantidadDeVentanillas" start time: Sep 30 12:54 Romance Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = AtencionAreas.PT_P05_InicializaCantidadDeVentanillas
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AtencionAreas
+[ RUN      ] AtencionAreas.PT_P05_InicializaCantidadDeVentanillas
+[       OK ] AtencionAreas.PT_P05_InicializaCantidadDeVentanillas (0 ms)
+[----------] 1 test from AtencionAreas (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AtencionAreas.PT_P05_InicializaCantidadDeVentanillas" end time: Sep 30 12:54 Romance Standard Time
+"AtencionAreas.PT_P05_InicializaCantidadDeVentanillas" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/18 Testing: Ventanillas.PT_P06_AsignaTicketAVentanillaLibre
+16/18 Test: Ventanillas.PT_P06_AsignaTicketAVentanillaLibre
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/atencion_tests.exe" "--gtest_filter=Ventanillas.PT_P06_AsignaTicketAVentanillaLibre" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
+"Ventanillas.PT_P06_AsignaTicketAVentanillaLibre" start time: Sep 30 12:54 Romance Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Ventanillas.PT_P06_AsignaTicketAVentanillaLibre
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Ventanillas
+[ RUN      ] Ventanillas.PT_P06_AsignaTicketAVentanillaLibre
+[       OK ] Ventanillas.PT_P06_AsignaTicketAVentanillaLibre (0 ms)
+[----------] 1 test from Ventanillas (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Ventanillas.PT_P06_AsignaTicketAVentanillaLibre" end time: Sep 30 12:54 Romance Standard Time
+"Ventanillas.PT_P06_AsignaTicketAVentanillaLibre" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/18 Testing: Ventanillas.PT_P07_RechazaTicketSiEstaOcupada
+17/18 Test: Ventanillas.PT_P07_RechazaTicketSiEstaOcupada
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/atencion_tests.exe" "--gtest_filter=Ventanillas.PT_P07_RechazaTicketSiEstaOcupada" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
+"Ventanillas.PT_P07_RechazaTicketSiEstaOcupada" start time: Sep 30 12:54 Romance Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Ventanillas.PT_P07_RechazaTicketSiEstaOcupada
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Ventanillas
+[ RUN      ] Ventanillas.PT_P07_RechazaTicketSiEstaOcupada
+[       OK ] Ventanillas.PT_P07_RechazaTicketSiEstaOcupada (0 ms)
+[----------] 1 test from Ventanillas (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Ventanillas.PT_P07_RechazaTicketSiEstaOcupada" end time: Sep 30 12:54 Romance Standard Time
+"Ventanillas.PT_P07_RechazaTicketSiEstaOcupada" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/18 Testing: Ventanillas.PT_P08_PermiteOtroTicketDespuesDeLiberar
+18/18 Test: Ventanillas.PT_P08_PermiteOtroTicketDespuesDeLiberar
+Command: "C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests/Debug/atencion_tests.exe" "--gtest_filter=Ventanillas.PT_P08_PermiteOtroTicketDespuesDeLiberar" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/helia/OneDrive/Documentos/Tec/Compu/7 semestre/Aseguramiento y calidad del software/Proyect/Proyecto-0-ED/build-tests
+"Ventanillas.PT_P08_PermiteOtroTicketDespuesDeLiberar" start time: Sep 30 12:54 Romance Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\helia\OneDrive\Documentos\Tec\Compu\7 semestre\Aseguramiento y calidad del software\Proyect\Proyecto-0-ED\build-tests\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = Ventanillas.PT_P08_PermiteOtroTicketDespuesDeLiberar
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Ventanillas
+[ RUN      ] Ventanillas.PT_P08_PermiteOtroTicketDespuesDeLiberar
+[       OK ] Ventanillas.PT_P08_PermiteOtroTicketDespuesDeLiberar (0 ms)
+[----------] 1 test from Ventanillas (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Ventanillas.PT_P08_PermiteOtroTicketDespuesDeLiberar" end time: Sep 30 12:54 Romance Standard Time
+"Ventanillas.PT_P08_PermiteOtroTicketDespuesDeLiberar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 30 12:54 Romance Standard Time

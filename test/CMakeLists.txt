@@ -19,10 +19,33 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
+# Pruebas de generación de tiquetes
 add_executable(ticket_tests
     test_tickets.cpp
 )
 
+# Pruebas de atención, áreas y ventanillas
+add_executable(atencion_tests
+    test_atencion.cpp
+)
+
+target_include_directories(ticket_tests PRIVATE
+    "${CMAKE_CURRENT_SOURCE_DIR}/../Proyecto0 v,fail"
+)
+
+target_include_directories(atencion_tests PRIVATE
+    "${CMAKE_CURRENT_SOURCE_DIR}/../Proyecto0 v,fail"
+)
+
+target_link_libraries(ticket_tests PRIVATE
+    GTest::gtest_main
+)
+
+target_link_libraries(atencion_tests PRIVATE
+    GTest::gtest_main
+)
+
+# Cobertura con Clang
 if (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
     if (CMAKE_CXX_COMPILER_FRONTEND_VARIANT STREQUAL "MSVC")
         target_compile_options(ticket_tests PRIVATE
@@ -31,6 +54,15 @@ if (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
         )
 
         target_link_options(ticket_tests PRIVATE
+            /clang:-fprofile-instr-generate
+        )
+
+        target_compile_options(atencion_tests PRIVATE
+            /clang:-fprofile-instr-generate
+            /clang:-fcoverage-mapping
+        )
+
+        target_link_options(atencion_tests PRIVATE
             /clang:-fprofile-instr-generate
         )
     else()
@@ -42,17 +74,19 @@ if (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
         target_link_options(ticket_tests PRIVATE
             -fprofile-instr-generate
         )
+
+        target_compile_options(atencion_tests PRIVATE
+            -fprofile-instr-generate
+            -fcoverage-mapping
+        )
+
+        target_link_options(atencion_tests PRIVATE
+            -fprofile-instr-generate
+        )
     endif()
 endif()
-
-target_include_directories(ticket_tests PRIVATE
-    "${CMAKE_CURRENT_SOURCE_DIR}/../Proyecto0 v,fail"
-)
-
-target_link_libraries(ticket_tests PRIVATE
-    GTest::gtest_main
-)
 
 include(GoogleTest)
 
 gtest_discover_tests(ticket_tests)
+gtest_discover_tests(atencion_tests)
